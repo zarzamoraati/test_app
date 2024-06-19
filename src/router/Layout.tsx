@@ -7,6 +7,7 @@ export const Layout = () => {
         <Link to="home">Home</Link>
         <Link to="/about"> About</Link>
       </ul>
+      <div><Outlet/></div>
     </div>
   )
 }
